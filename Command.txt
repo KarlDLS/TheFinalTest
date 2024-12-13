@@ -11,3 +11,8 @@ git commit -m "<my commit message>"
 git config user.name "KarlD_INFO"
 git add Command.txt
 git commit -m "<my commit message>"
+
+6. File Edits
+git status
+git diff MyFile.txt
+What I learned during this task was, I executed "git status" to see the state of the project to check if there are files that are unstaged or staged but modified in which I saw MyFile.txt have changes that were not staged. This means I have to do "git add MyFile.txt" to stage those changes and eventually commit that file once again to commit those changes to the version control. I also executed "git diff MyFile.txt" to view what the changes were to the MyFile.txt and it clearly shows that a line was appended (indicated by the + and green colouring) at the top of the file that reads out the course name and code.
