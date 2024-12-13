@@ -1,0 +1,13 @@
+3. Version Control Setup
+git init
+git add MyFile.txt
+git commit -m "<my commit message>"
+
+4. Folder Structure
+git add Info/
+git commit -m "<my commit message>"
+
+5. Git Configuration
+git config user.name "KarlD_INFO"
+git add Command.txt
+git commit -m "<my commit message>"
